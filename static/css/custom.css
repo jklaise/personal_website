@@ -1,0 +1,7 @@
+.intro-header.big-img, .intro-header.big-img  .big-img-transition {
+  -webkit-background-size: contain !important;
+  -moz-background-size: contain !important;
+  background-size: contain !important;
+  -o-background-size: contain !important;
+  background-color: lightgrey;
+}
