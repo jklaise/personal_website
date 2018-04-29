@@ -10,7 +10,7 @@ bigimg: [{src: "/img/p_b4.jpg"}]
 
 I am a London based Data Scientist. After finishing a [PhD in Mathematics and
 Complexity Science] (https://go.warwick.ac.uk/jklaise) and a [data science
-internship](https://spectraanalytics.com) I decided that developing data-driven
+internship](http://spectraanalytics.com) I decided that developing data-driven
 solutions to inform and drive business would be the perfect career path for me.
 
 This is a personal website where I plan to blog about my personal data science
