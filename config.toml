@@ -1,4 +1,4 @@
-baseurl = "http://www.janisklaise.com"
+baseurl = "https://www.janisklaise.com"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Wishful Tinkering"
