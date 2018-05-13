@@ -1,10 +1,9 @@
 baseurl = "https://www.janisklaise.com"
 DefaultContentLanguage = "en"
-#DefaultContentLanguage = "ja"
 title = "Wishful Tinkering"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
-pygmentsStyle = "trac"
+#pygmentsStyle = "solarized-dark"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -22,7 +21,7 @@ pygmentsCodefencesGuessSyntax = true
   rss = true
   comments = true
   readingTime = true
-  useHLJS = true
+  useHLJS = false
   socialShare = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
