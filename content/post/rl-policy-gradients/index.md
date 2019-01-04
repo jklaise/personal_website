@@ -471,7 +471,7 @@ There is a lot going on, even with the simple methods and there are few ablation
 <a class="anchor" id="appendix-b"></a>
 # B. Overparametrisation of Softmax
 
-In logistic regression we use the parametrized logistic function \\(f\_\theta(x)=\dfrac{e^{\theta\cdot x}}{1+e^{\theta\cdot x}}\\) where \\(\theta, x\\) are the \\(k\\)-dimensional weight and feature vectors respectively (we assume the bias term is incorporated within \\(\theta\\) and \\(x$). Because there are only two classes, we interpret the value of \\(f\_\theta(x)\\) as \\(p(y=1\vert \theta,x)\\), i.e. the probability of the first class. Then we get the probability of the second class for free since probabilities must sum to one.
+In logistic regression we use the parametrized logistic function \\(f\_\theta(x)=\dfrac{e^{\theta\cdot x}}{1+e^{\theta\cdot x}}\\) where \\(\theta, x\\) are the \\(k\\)-dimensional weight and feature vectors respectively (we assume the bias term is incorporated within \\(\theta\\) and \\(x\\). Because there are only two classes, we interpret the value of \\(f\_\theta(x)\\) as \\(p(y=1\vert \theta,x)\\), i.e. the probability of the first class. Then we get the probability of the second class for free since probabilities must sum to one.
 
 The parametrized softmax function defined as \\(\sigma\_\theta(x)\_i=\dfrac{e^{\theta\_i\cdot x}}{\sum\_{j=1}^{m}e^{\theta\_j\cdot x}}\\) for \\(i=1,\dots,m\\) is a generalization of the logistic function to \\(m\\) output classes and extends logistic regression to multi-class problems. We interpret the value of \\(\sigma\_\theta(x)\_i\\) as \\(p(y=i\vert \theta\_i, x)\\) for \\(i=1,\dots,m\\). Note that with softmax there is a separate weight vector \\(\theta\_i\\) for each of the classes.
 
