@@ -42,7 +42,7 @@ where \\(\alpha\\) is the usual learning rate hyperparameter.
 
 Let \\(P(\tau\vert\theta)\\) be the probability of a trajectory \\(\tau\\) under the policy \\(\pi\_\theta\\). Then we can write the gradient as follows:
 
-$$\begin{aligned}\nabla\_\theta\mathbb{E}\_{\pi\_\theta}R(\tau) &= \\\ &= \nabla\_\theta\sum\_\tau P(\tau\vert\theta)R(\tau) & \text{ definition of expectation}  \\\ &= \sum\_{\tau}\nabla\_\theta P(\tau\vert\theta)R(\tau) & \text{ swap sum/integral and gradient} \\\ &= \sum\_{\tau}\frac{P(\tau\vert\theta)}{P(\tau\vert\theta)}\nabla\_\theta P(\tau\vert\theta)R(\tau) & \text{ multiply and divide by $P(\tau\vert\theta)$} \\\ &= \sum\_{\tau}P(\tau\vert\theta)\nabla\_\theta\log P(\tau\vert\theta)R(\tau) & \text{ recognize that $\nabla\\_x\log(f(x))=\frac{\nabla\\_x f(x)}{f(x)}$}\\\ &= \mathbb{E}\_{\pi\_\theta}\left(\nabla\_\theta\log P(\tau\vert\theta)R(\tau)\right) & \text{ definition of expectation}\end{aligned}$$
+$$\begin{aligned}\nabla\_\theta\mathbb{E}\_{\pi\_\theta}R(\tau) &= \\\ &= \nabla\_\theta\sum\_\tau P(\tau\vert\theta)R(\tau) & \text{ definition of expectation}  \\\ &= \sum\_{\tau}\nabla\_\theta P(\tau\vert\theta)R(\tau) & \text{ swap sum/integral and gradient} \\\ &= \sum\_{\tau}\frac{P(\tau\vert\theta)}{P(\tau\vert\theta)}\nabla\_\theta P(\tau\vert\theta)R(\tau) & \text{ multiply and divide by $P(\tau\vert\theta)$} \\\ &= \sum\_{\tau}P(\tau\vert\theta)\nabla\_\theta\log P(\tau\vert\theta)R(\tau) & \text{ recognize that $\nabla\_x\log(f(x))=\dfrac{\nabla\_x f(x)}{f(x)}$}\\\ &= \mathbb{E}\_{\pi\_\theta}\left(\nabla\_\theta\log P(\tau\vert\theta)R(\tau)\right) & \text{ definition of expectation}\end{aligned}$$
 
 
 Now we can expand the probability of a trajectory \\(\tau\\) as follows:
