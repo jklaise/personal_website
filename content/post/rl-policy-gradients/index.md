@@ -1,7 +1,7 @@
 ---
 date: 2019-01-04
 title: "Reinforcement learning with policy gradients in pure Python"
-tags: ["Reinforcement learning", Python""]
+tags: ["Reinforcement learning", "Python"]
 ---
 {{% jupyter_cell_start markdown %}}
 
