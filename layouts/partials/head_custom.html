@@ -17,3 +17,15 @@ Or you can delete these file if you don't need it.
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.19.1/vis.css" integrity="sha256-I1UoFd33KHIydu88R9owFaQWzwkiZV4hXXug5aYaM28=" crossorigin="anonymous" />
 -->
 <link href="{{ absURL "css/custom.css" }}" rel="stylesheet">
+
+<!--The following allows using $$ delimiters with Katex for inline Maths-->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+          delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false}
+          ]
+      });
+  });
+</script>
