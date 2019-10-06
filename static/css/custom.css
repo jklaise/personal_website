@@ -17,3 +17,8 @@
   border-bottom-right-radius: unset;
   overflow: auto;
 }
+
+/* use DejaVu for code blocks to render on all devices*/
+code{
+  font-family: 'DejaVuSansMono', monospace;
+}
