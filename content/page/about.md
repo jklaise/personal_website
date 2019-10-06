@@ -1,25 +1,31 @@
 ---
 title: Janis Klaise
-subtitle: Data Scientist, Consultant
+subtitle: Data Scientist
 comments: false
 date: 2018-04-22
-bigimg: [{src: "/img/p_b4.jpg"}]
+#bigimg: [{src: "/img/p_b4.jpg"}]
 ---
 
-### Hi, I'm Janis!
+## Hi, I'm Janis!
 
-I am a London based Data Scientist. After finishing a [PhD in Mathematics and
-Complexity Science] (https://go.warwick.ac.uk/jklaise) and a [data science
-internship](http://spectraanalytics.com) I decided that developing data-driven
-solutions to inform and drive business would be the perfect career path for me.
+I am a London based Data Scientist. I'm interested in more things than I have
+time for to study. I strive to understand algorithms, modelling approaches
+and programming principles from the ground up which I sometimes share on this blog.
 
-This is a personal website where I plan to blog about my personal data science
-projects, machine learning algorithms, mathematical hurdles I come across when
-solving problems, tips and best-practice in using **Python** and **R** and their
-scientific libraries (the top two programming languages for any aspiring data
-scientist!) and whatever else I find useful and interesting.
+### Current
+ - I work at [Seldon](https://www.seldon.io/) in London. I focus on designing algorithms
+ and developing software to enable monitoring of production
+machine learning systems.
+ - I develop and maintain a machine learning interpretation library [Alibi](https://github.com/SeldonIO/alibi).
+ - I've co-authored a [paper](https://arxiv.org/abs/1907.02584) on counterfactual
+ explanations to machine learning model predictions.
 
-There is a lot of great data science content out there, most of it in the form
-of blogs, and a big part of my knowledge is due the people providing this
-content completely free of charge. I hope to give back to the community in the
-form of providing my own (hopefully at least somewhat useful!) thoughts.
+### Past
+ - I did a PhD in Mathematics and Complexity Science at the University of Warwick,
+ supervised by [Samuel Johnson](https://www.birmingham.ac.uk/staff/profiles/maths/johnson-samuel.aspx).
+ My [thesis](https://core.ac.uk/download/pdf/157859545.pdf) is on Network
+ Science—understanding and modelling complex interconnected systems.
+ - I've mentored startups about productionising their machine learning in the [Google Cloud](https://twitter.com/GoogleCloud_UKI) ML kickstarter.
+ - I've participated in several Alan Turing Institute [Data Study Groups](https://www.turing.ac.uk/collaborate-turing/data-study-groups) and [European Study Groups with Industry](https://ecmiindmath.org/study-groups/).
+ - I've taught Maths & Stats and computing to undergraduate students in Mathematics and Business
+ students at the University of Warwick.
