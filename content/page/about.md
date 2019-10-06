@@ -3,6 +3,7 @@ title: Janis Klaise
 subtitle: Data Scientist
 comments: false
 date: 2018-04-22
+socialShare: false
 #bigimg: [{src: "/img/p_b4.jpg"}]
 ---
 
