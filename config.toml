@@ -13,7 +13,7 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
-  subtitle = "Data science, coding, maths and other tidbits"
+  subtitle = "Data science, machine learning, maths and other tidbits"
   #logo = "img/portrait3.jpg"
   #favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
