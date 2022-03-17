@@ -22,3 +22,7 @@
 code{
   font-family: 'DejaVuSansMono', monospace;
 }
+
+.padfig {
+  padding-top: 25px
+}
