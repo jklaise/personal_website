@@ -7,12 +7,28 @@ var main = {
 
   init : function() {
     // Shorten the navbar after scrolling a little bit down
-    $(window).scroll(function() {
-        if ($(".navbar").offset().top > 50) {
-            $(".navbar").addClass("top-nav-short");
-        } else {
-            $(".navbar").removeClass("top-nav-short");
+    //$(window).scroll(function() {
+    //    if ($(".navbar").offset().top > 50) {
+    //        $(".navbar").addClass("top-nav-short");
+    //    } else {
+    //        $(".navbar").removeClass("top-nav-short");
+    //    }
+    //});
+    
+    var previousScroll = 20;
+    // scroll functions
+    $(window).scroll(function(e) {
+    
+        // add/remove class to navbar when scrolling to hide/show
+        var scroll = $(window).scrollTop();
+        if (scroll >= previousScroll) {
+            $('.navbar').addClass("navbar-hide");
+        
+        }else if (scroll < previousScroll) {
+            $('.navbar').removeClass("navbar-hide");
         }
+        previousScroll = scroll;
+    
     });
 
     // On mobile, hide the avatar when expanding the navbar menu

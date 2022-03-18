@@ -26,3 +26,11 @@ code{
 .padfig {
   padding-top: 25px
 }
+
+.navbar-custom.navbar-hide {
+  top: -56px;
+}
+
+.navbar-custom {
+  transition: top 0.5s ease;
+}
