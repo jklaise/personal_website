@@ -7,6 +7,7 @@ var main = {
 
   init : function() {
     // Shorten the navbar after scrolling a little bit down
+
     //$(window).scroll(function() {
     //    if ($(".navbar").offset().top > 50) {
     //        $(".navbar").addClass("top-nav-short");
@@ -15,21 +16,26 @@ var main = {
     //    }
     //});
     
-    var previousScroll = 20;
-    // scroll functions
-    $(window).scroll(function(e) {
-    
-        // add/remove class to navbar when scrolling to hide/show
-        var scroll = $(window).scrollTop();
-        if (scroll >= previousScroll) {
-            $('.navbar').addClass("navbar-hide");
-        
-        }else if (scroll < previousScroll) {
-            $('.navbar').removeClass("navbar-hide");
-        }
-        previousScroll = scroll;
-    
-    });
+
+    // Hide navbar on scroll down, show on scroll up - disabled due to
+    // showing up when jumping back to text from footnotes, obscuring
+    // the text
+
+    //var previousScroll = 1000;
+    //// scroll functions
+    //$(window).scroll(function(e) {
+    //
+    //    // add/remove class to navbar when scrolling to hide/show
+    //    var scroll = $(window).scrollTop();
+    //    if (scroll >= previousScroll) {
+    //        $('.navbar').addClass("navbar-hide");
+    //    
+    //    }else if (scroll < previousScroll) {
+    //        $('.navbar').removeClass("navbar-hide");
+    //    }
+    //    previousScroll = scroll;
+    //
+    //});
 
     // On mobile, hide the avatar when expanding the navbar menu
     $('#main-navbar').on('show.bs.collapse', function () {
