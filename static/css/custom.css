@@ -33,4 +33,5 @@ code{
 
 .navbar-custom {
   transition: top 0.5s ease;
+  min-height: auto;
 }
